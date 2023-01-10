@@ -1,6 +1,6 @@
 {
-  "name": "Dad jokes",
-  "description": "Get a new joke on refresh",
+  "name": "Login extension",
+  "description": "Login information saved using session",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
