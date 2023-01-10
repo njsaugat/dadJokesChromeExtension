@@ -12,16 +12,24 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Form Validator</title>
   </head>
   <body>
-    <div class="container">
-      <div class="challenge">Don't Laugh Challenge</div>
-      <div class="joke"></div>
-      <div class="btn">
-        <button>Get Another Joke</button>
+    <form class="form">
+      <h1>Register With Us at Boomconsole</h1>
+
+      <div class="option email">
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter email" />
       </div>
-    </div>
+      <div class="option password">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter password" />
+      </div>
+      <div class="option">
+        <button class="btn" type="submit">Login</button>
+      </div>
+    </form>
+    <script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
